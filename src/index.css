@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "bebas_neue";
+  src: url("/public/fonts/bebas_neue/BebasNeue-Regular.eot");
+  src: 
+  url("/public/fonts/bebas_neue/BebasNeue-Regular.woff") format("woff"),
+  url("/public/fonts/bebas_neue/BebasNeue-Regular.otf") format("opentype")
+}
+
+
+*, 
+*:after, 
+*:before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system,bebas_neue, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:#4BC2AE;
+}
+

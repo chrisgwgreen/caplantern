@@ -1,0 +1,18 @@
+.scroll-panel {
+  height:100vh;
+  position: relative;
+}
+
+.scroll-panel__scroll-up, 
+.scroll-panel__scroll-down {
+  position: absolute; 
+  left: 50%;
+  top: 10px;
+  z-index: 1;
+}
+
+
+.scroll-panel__scroll-down {
+  top: auto;
+  bottom: 10px;
+}

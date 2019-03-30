@@ -1,0 +1,17 @@
+.colour-selector {
+  position: absolute;
+  right: -50px; 
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  transition: right .3s;
+}
+
+.colour-selector--enabled {
+  right: 20px;
+}
+
+.colour-selector__container {
+  width: 100%;
+}

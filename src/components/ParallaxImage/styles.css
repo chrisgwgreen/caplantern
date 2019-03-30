@@ -1,0 +1,8 @@
+.parallax-image {
+  width: 100%;
+  height: 100vh;
+}
+
+.parallax-image__image {
+  position: absolute;
+}

@@ -1,0 +1,38 @@
+.colour-button {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  box-sizing: border-box; 
+}
+
+.colour-button__colour--blue {
+  background: #00bee0;
+}
+
+.colour-button__colour--green {
+  background: #00e49c;
+}
+
+.colour-button__colour--yellow {
+  background: #F0CD13;
+}
+
+.colour-button__colour--red {
+  background: #ff696b;
+}
+
+.colour-button__colour--black {
+  background: #000000;
+}
+
+.colour-button__colour--blue.colour-button--selected,
+.colour-button__colour--green.colour-button--selected,
+.colour-button__colour--yellow.colour-button--selected,
+.colour-button__colour--red.colour-button--selected {
+  border: solid 2px #000000;
+}
+
+.colour-button__colour--black.colour-button--selected {
+  border: solid 2px #555555;
+}

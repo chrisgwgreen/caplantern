@@ -38,7 +38,7 @@ class Map extends Component {
 
   getLocation() {
     const width = (this.mapContainer.clientWidth > 1280) ? 1280 : this.mapContainer.clientWidth
-    const height = this.mapContainer.clientHeight
+    const height = (this.mapContainer.clientHeight > 1280) ? 1280 : this.mapContainer.clientHeight
        
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(position => {

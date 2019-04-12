@@ -58,8 +58,7 @@ class ParallaxImage extends Component {
     const {
       type,
       range,
-      alt,
-      src
+      alt
     } = this.props
 
     return (
